@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "rosea";
+    src: url('../fonts/Roslindale-DisplayRegular-Testing.otf');
+}
+@font-face {
+    font-family: "roseaLight";
+    src: url('../fonts/Roslindale-DisplayLight-Testing.otf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+}
+
+
+//IMPORTS 
+@import './nav';
+@import './header';
+@import './shop';
+@import './ethos';
+@import './about';
+@import './eachProduct';
+@import './eachProductMobile';
+@import './cart';
+
+
+
+
+
+//PRELOADER
+// .loader-wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: black;
+//     color: #fff;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     z-index: 10;
+
+//     h1, h2 {
+//         font-family: "rosea";
+//         font-size: 4vw;
+//         text-transform: uppercase;
+//         font-weight: 100;
+//     }
+//     h2 {
+//         margin-top: 20px;
+//         font-size: 2vw;
+//     }
+// }

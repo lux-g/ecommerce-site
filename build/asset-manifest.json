@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5f11728.chunk.css",
+    "main.js": "/static/js/main.49c7a5f7.chunk.js",
+    "main.js.map": "/static/js/main.49c7a5f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c46b4b2c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c46b4b2c.js.map",
+    "static/js/2.6f302306.chunk.js": "/static/js/2.6f302306.chunk.js",
+    "static/js/2.6f302306.chunk.js.map": "/static/js/2.6f302306.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a5f11728.chunk.css.map": "/static/css/main.a5f11728.chunk.css.map",
+    "static/js/2.6f302306.chunk.js.LICENSE.txt": "/static/js/2.6f302306.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Roslindale-DisplayRegular-Testing.e9f3ca7f.otf",
+    "static/media/diss.1ded8f85.png": "/static/media/diss.1ded8f85.png",
+    "static/media/groupwhite.cb5cb666.png": "/static/media/groupwhite.cb5cb666.png",
+    "static/media/hoodie1-back.7614a35b.webp": "/static/media/hoodie1-back.7614a35b.webp",
+    "static/media/hoodie1.bfab80a6.webp": "/static/media/hoodie1.bfab80a6.webp",
+    "static/media/hoodie2-back.8d32b2ae.webp": "/static/media/hoodie2-back.8d32b2ae.webp",
+    "static/media/hoodie2.2e1ee7f4.webp": "/static/media/hoodie2.2e1ee7f4.webp",
+    "static/media/store.2b220963.webp": "/static/media/store.2b220963.webp",
+    "static/media/tee1-back.d93d2f7b.webp": "/static/media/tee1-back.d93d2f7b.webp",
+    "static/media/tee1.2c8c7c3b.webp": "/static/media/tee1.2c8c7c3b.webp",
+    "static/media/tee2-back.7785f280.webp": "/static/media/tee2-back.7785f280.webp",
+    "static/media/tee2.4be9fe1e.webp": "/static/media/tee2.4be9fe1e.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c46b4b2c.js",
+    "static/js/2.6f302306.chunk.js",
+    "static/css/main.a5f11728.chunk.css",
+    "static/js/main.49c7a5f7.chunk.js"
+  ]
+}

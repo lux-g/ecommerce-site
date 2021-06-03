@@ -1,0 +1,91 @@
+.content-ethos {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    @media (max-width: 600px) {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+
+    &__title-ethos {
+        font-family: "roseaLight";
+        font-size: 10vw;
+        color: #fff;
+        white-space: nowrap;
+        background-color:transparent;
+        overflow: hidden;
+        span {
+            display: inline-block;
+            transform: translateY(100%);
+        }
+    }
+}
+.ethos-img {
+    width: 25%;
+    position: absolute;
+    top: -85%;
+    right: 0;
+    transition: transform 1s ease-out;
+    animation: rotation 20s linear infinite;
+    @media (max-width: 600px) {
+        width: 35%;
+        top: -150%;
+    }
+}
+.content-handmade {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "roseaLight";
+    border-bottom: 1px solid #fff;
+    padding: 40px 0px;
+    @media (max-width: 600px) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    &__text {
+        font-size: calc(10px + 1vw);
+        line-height: 1.5;
+        @media (max-width: 600px) {
+            font-size: calc(12px + 1vw);
+        }
+    }
+}
+.handmade-last-one {
+    margin-bottom: 5%;
+
+    @media(max-width: 600px) {
+        margin-bottom: 10%;
+    }
+}
+.footer {
+    h2 {
+        text-align: center;
+        color: #fff;
+        font-family: "roseaLight";
+        font-size: calc(8px + 1vw);
+        font-weight: 100;
+        span {
+            margin: 10px 0px;
+        }
+    }
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
