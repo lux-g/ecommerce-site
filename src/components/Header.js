@@ -4,7 +4,41 @@ import { Link } from 'react-router-dom'
 import gsap from "gsap";
 import { motion } from "framer-motion"
 
+
 const Header = () => {
+
+    useEffect(()=> {
+        class Grid{
+            constructor(el){
+                this.dom = {el: el}
+                this.gridItems = []
+                this.items = [...document.querySelectorAll('.grid__item')]
+                //this.items.forEach(item => this.gridItems.push(new GridItem(item)))
+
+                this.showItems()
+            }
+
+            showItems(){
+                gsap
+                .timeline()
+                .set(this.items, {scale: 0.7, opacity: 0}, 0)
+                .to(this.items, {
+                    duration: 1,
+                    ease: 'power4.easeOut',
+                    scale: 1,
+                    stagger: {amount: 1.2, grid: 'auto', from: 'center'}
+                }, 0)
+                .to(this.items, {
+                    duration: 2,
+                    ease: 'power4.easeOut',
+                    opacity: 1,
+                    stagger: {amount: 0.9, grid: 'auto', from: 'center'}
+                }, 0);
+            }
+        }
+
+        new Grid()
+    })
 
     useEffect(()=> {
         let vh = window.innerHeight * 0.01;
@@ -95,5 +129,8 @@ const Header = () => {
 }
 
 export default Header
+
+
+
 
 
